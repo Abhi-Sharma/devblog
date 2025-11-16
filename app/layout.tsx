@@ -20,15 +20,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      
+      {/* ⭐ Google Search Console tag MUST be here */}
       <head>
-        {/* ✅ GOOGLE SEARCH CONSOLE VERIFICATION TAG */}
         <meta
           name="google-site-verification"
           content="R4jFbCSH-_UHBBoYrmRekjm6xvggVIxue929C_IL4xk"
