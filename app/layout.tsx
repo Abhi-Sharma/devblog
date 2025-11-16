@@ -4,12 +4,13 @@ import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ThemeProvider from '@/components/ThemeProvider';
-<meta name="google-site-verification" content="R4jFbCSH-_UHBBoYrmRekjm6xvggVIxue929C_IL4xk" />
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'DevBlog - Modern Development Blog',
-  description: 'A modern blog platform for developers. Learn about Next.js, React, TypeScript, and more.',
+  description:
+    'A modern blog platform for developers. Learn about Next.js, React, TypeScript, and more.',
   keywords: ['blog', 'development', 'nextjs', 'react', 'typescript', 'web development'],
   authors: [{ name: 'DevBlog Team' }],
   openGraph: {
@@ -26,6 +27,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* ✅ GOOGLE SEARCH CONSOLE VERIFICATION TAG */}
+        <meta
+          name="google-site-verification"
+          content="R4jFbCSH-_UHBBoYrmRekjm6xvggVIxue929C_IL4xk"
+        />
+      </head>
+
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex flex-col min-h-screen">

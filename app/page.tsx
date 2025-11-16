@@ -8,8 +8,6 @@ export default function Home() {
 
   return (
     <>
-    <head><meta name="google-site-verification" content="R4jFbCSH-_UHBBoYrmRekjm6xvggVIxue929C_IL4xk" /></head>
-
       <section className="relative bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-background py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
