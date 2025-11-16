@@ -7,10 +7,7 @@ import ThemeProvider from '@/components/ThemeProvider';
 
 const inter = Inter({ subsets: ['latin'] });
 <head>
-  <meta
-    name="google-site-verification"
-    content="google9b6ea5f5093f98bd"
-  />
+  <meta name="google-site-verification" content="R4jFbCSH-_UHBBoYrmRekjm6xvggVIxue929C_IL4xk" />
 </head>
 
 export const metadata: Metadata = {
