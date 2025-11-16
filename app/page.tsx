@@ -3,7 +3,7 @@ import { ArrowRight, BookOpen, Sparkles, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import BlogCard from '@/components/BlogCard';
 import { getAllPosts } from '@/lib/posts';
-
+<head><meta name="google-site-verification" content="R4jFbCSH-_UHBBoYrmRekjm6xvggVIxue929C_IL4xk" /></head>
 export default function Home() {
   const posts = getAllPosts().slice(0, 3);
 
