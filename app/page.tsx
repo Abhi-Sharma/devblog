@@ -3,12 +3,13 @@ import { ArrowRight, BookOpen, Sparkles, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import BlogCard from '@/components/BlogCard';
 import { getAllPosts } from '@/lib/posts';
-<head><meta name="google-site-verification" content="R4jFbCSH-_UHBBoYrmRekjm6xvggVIxue929C_IL4xk" /></head>
 export default function Home() {
   const posts = getAllPosts().slice(0, 3);
 
   return (
     <>
+    <head><meta name="google-site-verification" content="R4jFbCSH-_UHBBoYrmRekjm6xvggVIxue929C_IL4xk" /></head>
+
       <section className="relative bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-background py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
