@@ -4,11 +4,8 @@ import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ThemeProvider from '@/components/ThemeProvider';
-
+<meta name="google-site-verification" content="R4jFbCSH-_UHBBoYrmRekjm6xvggVIxue929C_IL4xk" />
 const inter = Inter({ subsets: ['latin'] });
-<head>
-  <meta name="google-site-verification" content="R4jFbCSH-_UHBBoYrmRekjm6xvggVIxue929C_IL4xk" />
-</head>
 
 export const metadata: Metadata = {
   title: 'DevBlog - Modern Development Blog',
